@@ -1,0 +1,1 @@
+{"crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:2:84"}}, "type": "FeatureCollection", "features": [{"geometry": {"type": "Polygon", "coordinates": [[[-37.5, -7.0], [-36.0, -7.0], [-36.0, -8.0], [-37.5, -8.0], [-37.5, -7.0]]]}, "type": "Feature", "properties": {"name": "SB-24-Z-D"}}], "bbox": [-37.5, -36.0, -8.0, -7.0]}

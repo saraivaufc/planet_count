@@ -1,0 +1,1 @@
+{"crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:2:84"}}, "type": "FeatureCollection", "features": [{"geometry": {"type": "Polygon", "coordinates": [[[-48.0, -15.0], [-46.5, -15.0], [-46.5, -16.0], [-48.0, -16.0], [-48.0, -15.0]]]}, "type": "Feature", "properties": {"name": "SD-23-Y-C"}}], "bbox": [-48.0, -46.5, -16.0, -15.0]}

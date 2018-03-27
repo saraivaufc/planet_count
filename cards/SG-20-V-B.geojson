@@ -1,0 +1,1 @@
+{"crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:2:84"}}, "type": "FeatureCollection", "features": [{"geometry": {"type": "Polygon", "coordinates": [[[-64.5, -24.0], [-63.0, -24.0], [-63.0, -25.0], [-64.5, -25.0], [-64.5, -24.0]]]}, "type": "Feature", "properties": {"name": "SG-20-V-B"}}], "bbox": [-64.5, -63.0, -25.0, -24.0]}
