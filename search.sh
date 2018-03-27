@@ -10,7 +10,13 @@ MONTHS=(
 )
 
 
-for card in "cards"/*
+if [ $# -eq 0 ]; then
+    cards="cards"/*
+else
+	cards="cards/${1}.geojson"
+fi
+
+for card in $cards
 do
 	echo "${card}"
 	for month in "${MONTHS[@]}" ; do
