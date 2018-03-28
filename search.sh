@@ -18,15 +18,16 @@ fi
 
 for card in $cards
 do
-	echo "${card}"
+	printf "\n${card}\n"
 	for month in "${MONTHS[@]}" ; do
 	    name="${month%%:*}"
 	    dates="${month##*:}"
-	    #echo $KEY $VALUE
 	    date_start="$(cut -d',' -f1 <<< ${dates})"
 		date_end="$(cut -d',' -f2 <<< ${dates})"
-
-		echo $name
-		planet data stats --item-type PSScene4Band --geom ${card} --date acquired gt $date_start --date acquired lt $date_end
+		
+		# content=$(planet data stats --item-type PSScene4Band --geom ${card} --date acquired gte $date_start --date acquired lte $date_end)
+		# echo ${content} | underscore select '.buckets[0].count'
+		content=$(planet data stats --item-type PSScene4Band --geom ${card} --date acquired gte $date_start --date acquired lte $date_end) 
+		echo ${name} - ${content} #| cut -c66-69
 	done
 done
